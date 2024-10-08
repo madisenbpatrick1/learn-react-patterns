@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import pageFactoryInitializer from './pageComps/pageFactoryInitializer';
 
 const condRenderHome = () => {
+  // should take this out -- due to separation of concerns 
   const [pageName, setPageName] = useState<string>('list');
   const [selectedUser, setSelectedUser] = useState<string>('');
 

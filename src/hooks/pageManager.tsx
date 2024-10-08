@@ -1,7 +1,7 @@
 import React from 'react';
 import pageFactoryInitializer from '@/pages/solncomps/condRenderRefactored/pageComps/pageFactoryInitializer';
 
-// Custom hook for managing page state and user selection
+// Custom hook for managing page state and user selection 
 export const usePageManager = () => {
   const [pageName, setPageName] = React.useState<string>('list');
   const [selectedUser, setSelectedUser] = React.useState<string>('');
